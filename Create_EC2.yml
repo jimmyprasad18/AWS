@@ -1,4 +1,5 @@
-# Note: Only AWS S3 is currently supported
-
-# Lists all s3 buckets
+---
+- hosts: localhost
+  tasks:
 - aws_s3_bucket_facts:
+  
