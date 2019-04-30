@@ -4,7 +4,7 @@
     - name: Create an empty bucket
       aws_s3:
        bucket: mybuckedfgst
-       aws_secret_key: "AKIAI5QXLDULS4KU4XDQ"
-       aws_access_key: "aWijHN4ayM6FKraj2lgRtcl64WelhGc41kCoJLtD"
+       aws_secret_key: AKIAI5QXLDULS4KU4XDQ
+       aws_access_key: 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
        mode: create
        permission: public-read
