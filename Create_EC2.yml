@@ -2,7 +2,7 @@
 - hosts: all
   tasks:
     - name: Create an empty bucket
-      s3:
+      aws_s3:
         bucket: mybucket
         mode: create
         permission: public-read
