@@ -1,7 +1,4 @@
----
-- hosts: all
-  tasks:
-    - name: Create an empty bucket
-      aws_s3:
-        bucket: mybuc12345q
-        mode: create
+# Note: Only AWS S3 is currently supported
+
+# Lists all s3 buckets
+- aws_s3_bucket_facts:
