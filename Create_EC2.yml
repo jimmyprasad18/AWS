@@ -3,6 +3,5 @@
   tasks:
     - name: Create an empty bucket
       aws_s3:
-        bucket: mybuc12345
+        bucket: mybuc12345q
         mode: create
-        permission: public-read
