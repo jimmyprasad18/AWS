@@ -1,8 +1,6 @@
 ---
 - hosts: localhost
   tasks:
-    - name: Create an empty bucket
-      aws_s3:
-       bucket: jimmy1234
-       mode: create
-       permission: public-read
+    - name: Create an ec2 key
+      aws_ec2_key:
+       name: my_keypair
