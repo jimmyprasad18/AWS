@@ -1,7 +1,8 @@
 ---
 - hosts: localhost
   tasks:
-- name: Delete a bucket and all contents
+- name: Create an empty bucket
   aws_s3:
-    bucket: jimmy123
-    mode: delete
+    bucket: mybucket
+    mode: create
+    permission: public-read
