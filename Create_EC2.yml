@@ -2,7 +2,7 @@
 - hosts: localhost
   tasks:
     - iam_user:
-      aws_secret_key: "AKIAI5QXLDULS4KU4XDQ"
-      aws_access_key: "aWijHN4ayM6FKraj2lgRtcl64WelhGc41kCoJLtD"
-      name: testuser1
-      state: present
+       aws_secret_key: "AKIAI5QXLDULS4KU4XDQ"
+       aws_access_key: "aWijHN4ayM6FKraj2lgRtcl64WelhGc41kCoJLtD"
+       name: testuser1
+       state: present
