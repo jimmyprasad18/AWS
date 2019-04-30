@@ -4,3 +4,4 @@
     - name: Create an ec2 key
       ec2_key:
        name: my_keypair-jim
+       region: ohio
