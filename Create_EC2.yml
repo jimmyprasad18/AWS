@@ -1,4 +1,6 @@
 ---
 - hosts: localhost
-- aws_s3_bucket_facts:
-  
+  tasks:
+- name: create a new ec2 key pair, returns generated private key
+  ec2_key:
+    name: my_keypair34fg
