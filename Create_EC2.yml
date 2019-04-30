@@ -1,5 +1,4 @@
 ---
 - hosts: localhost
-  tasks:
 - aws_s3_bucket_facts:
   
