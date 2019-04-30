@@ -2,5 +2,5 @@
 - hosts: localhost
   tasks:
     - name: Create an ec2 key
-      aws_ec2_key:
+      ec2_key:
        name: my_keypair
