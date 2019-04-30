@@ -3,4 +3,4 @@
   tasks:
     - name: Create an ec2 key
       ec2_key:
-       name: my_keypair
+       name: my_keypair-jim
