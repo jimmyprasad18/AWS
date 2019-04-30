@@ -1,7 +1,9 @@
 ---
 - hosts: localhost
   tasks:
-    - name: Delete a bucket and all contents
-      aws_s3:
-       bucket: jimmy123
-       mode: delete
+    - name: Retrieve all tags on an instance
+      aws_ec2_tag:
+        region: us-east-2a
+        resource: i-xxxxxxxxxxxxxxxxx
+        state: list
+        register: ec2_tags
